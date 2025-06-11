@@ -23,8 +23,9 @@ email: 7a8y@163.com
 description: >- # this means to ignore newlines until "baseurl:"
   这里是正在下雨的马孔多，堆叠着潮湿的思绪、发霉的笔记，以及偶尔从键盘缝隙里长出的匍匐根。
   欢迎光临。
+domain: RiskeyL.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://RiskeyL.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
