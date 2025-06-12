@@ -35,7 +35,8 @@ layout: base
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  
+{% comment %}
   {% if jekyll.environment == 'production' -%}
     {% if page.comments == false -%}
     <div class="comments-disabled-message">
@@ -45,6 +46,7 @@ layout: base
       {%- include comments.html -%}
     {% endif -%}
   {% endif -%}
+{% endcomment %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
